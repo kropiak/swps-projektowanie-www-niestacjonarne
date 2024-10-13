@@ -12,7 +12,7 @@ W trakcie zajęć osoba studencka pozna m.in. zagadnienia takie jak:
 * implementacja logiki biznesowej (wymagań klienta) w projekcie
 * tworzenie API REST-owego na potrzeby różnych technologii frontendowych
 * widoki i szablony Django z wykorzystaniem modeli i formularzy
-* obsługa i implementacja autentykacji i uwierzytelniania z użyciem Django
+* obsługa i implementacja uwierzytelniania i autoryzacji z użyciem Django
 * poznanie narzędzi zarządzania projektem Django oraz panelu administratora i jego możliwości
 
 
