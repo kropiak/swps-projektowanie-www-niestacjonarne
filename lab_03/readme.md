@@ -5,7 +5,7 @@
 
 ### **1. Narzędzia administracyjne frameworka Django.**
 
-Django posiada narzędzie administracyjne w postaci skryptu `manage.py` oraz polecenia `django-admin` dzięki którym możemy wykonać wiele czynności administracyjnych, takich jak dodanie użytkownika administracyjnego, wykonanie migracji bazy danych, uruchomienie serwera i inne. Pełną listę poleceń można znaleźć w oficjalnej dokumentacji pod adresem: https://docs.djangoproject.com/pl/4.2/ref/django-admin/
+Django posiada narzędzie administracyjne w postaci skryptu `manage.py` oraz polecenia `django-admin` dzięki którym możemy wykonać wiele czynności administracyjnych, takich jak dodanie użytkownika administracyjnego, wykonanie migracji bazy danych, uruchomienie serwera i inne. Pełną listę poleceń można znaleźć w oficjalnej dokumentacji pod adresem: https://docs.djangoproject.com/pl/4.2/ref/django-admin/ oraz https://docs.djangoproject.com/en/4.2/ref/contrib/admin/
 
 Dodatkowe i przydatne narzędzia można dodać poprzez instalację zewnętrznych modułów, np. [django-admin-tools](https://github.com/django-admin-tools/django-admin-tools) (**archiwalnie istniał problem z instalacją z Django 4.2**),[django-debug-toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/index.html) lub [django-extensions](https://pypi.org/project/django-extensions/).
 
