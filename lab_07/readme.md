@@ -51,7 +51,7 @@ class PersonSerializer(serializers.Serializer):
     # przesłonięcie metody update() z klasy serializers.Serializer
     def update(self, instance, validated_data):
         instance.firstname = validated_data.get('firstname', instance.firstname)
-        instance.laastname = validated_data.get('lastname', instance.lastname)
+        instance.lastname = validated_data.get('lastname', instance.lastname)
         instance.shirt_size = validated_data.get('shirt_size', instance.shirt_size)
         instance.month_added = validated_data.get('month_added', instance.month_added)
         instance.team = validated_data.get('team', instance.team)
