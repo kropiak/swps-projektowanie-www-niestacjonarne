@@ -1,31 +1,31 @@
-# Projektowanie aplikacji webowych, semestr 2024Z
+# Projektowanie aplikacji webowych, semestr 2025Z
 
 ## 1. Cel i zakres przedmiotu
 
 Celem przedmiotu jest przybliżenie osobie studenckiej zagadnień związanych z projektowaniem aplikacji WWW z wykorzystaniem języka Python oraz frameworka Django. W trakcie zajęć główny nacisk zostanie położony na backend (czyli część aplikacji związana z implementacją funkcjonalności po stronie serwera), ale zajmiemy się też budową prostych widoków, czyli frontendem.
 
 W trakcie zajęć osoba studencka pozna m.in. zagadnienia takie jak:
-* konfiguracja bazy danych na potrzeby aplikacji
-* obsługa narzędzia Git
-* tworzenie i zarządzanie modelami we frameworku Django
-* migracja bazy i rozwiązywanie problemów z migracjami
-* implementacja logiki biznesowej (wymagań klienta) w projekcie
-* tworzenie API REST-owego na potrzeby różnych technologii frontendowych
-* widoki i szablony Django z wykorzystaniem modeli i formularzy
-* obsługa i implementacja autentykacji i uwierzytelniania z użyciem Django
-* poznanie narzędzi zarządzania projektem Django oraz panelu administratora i jego możliwości
+* konfiguracja bazy danych na potrzeby aplikacji,
+* obsługa narzędzia Git,
+* tworzenie i zarządzanie modelami we frameworku Django,
+* migracja bazy i rozwiązywanie problemów z migracjami,
+* implementacja logiki biznesowej (wymagań klienta) w projekcie,
+* tworzenie API REST-owego na potrzeby różnych technologii frontendowych,
+* widoki i szablony Django z wykorzystaniem modeli i formularzy,
+* obsługa i implementacja autentykacji i uwierzytelniania z użyciem Django,
+* poznanie narzędzi zarządzania projektem Django oraz panelu administratora i jego możliwości.
 
 
 ## 2. Oprogramowanie
 
 W trakcie zajęć do pracy niezbędne będzie posiadanie:
-* zainstalowanego interpretera **Pythona** w wersji 3.11 lub nowszej
-* **framework Django** w wersji 4.2.*
-* narzędzie IDE, preferowane **PyCharm Professional** (licencja studencka) lub wersja Community. Może to być również inne oprogramowanie ze wsparciem dla języka Python.
-* narzędzie Git do zarządzania kodem projektu
-* możliwe, że w zależności od konfiguracji projektu niezbędne będzie zainstalowanie i konfiguracja odpowiedniego serwera bazy danych
+* zainstalowanego interpretera **Pythona** w wersji 3.12 lub nowszej,
+* **framework Django** w wersji 5.2.*,
+* narzędzie IDE, preferowane **PyCharm Professional** (licencja studencka) lub wersja **Community**. Może to być również inne oprogramowanie ze wsparciem dla języka Python np. **Visual Studio Code** z odpowiednimi rozszerzeniami,
+* narzędzie Git do zarządzania kodem projektu,
+* możliwe, że w zależności od konfiguracji projektu niezbędne będzie zainstalowanie i konfiguracja odpowiedniego serwera bazy danych.
 
-## 3. Warunki zaliczenia przedmiotu.
+## 3. Warunki zaliczenia przedmiotu
 
 - Efektem finalnym pracy na zajęciach będzie **projekt API** stworzony w Django Rest Framework lub po uzgodnieniu w innym frameworku,
 - osoby studenckie mogą dobrać się w pary lub pracować samodzielnie (w wyjątkowych przypadkach dozwolona jest praca w 3-osobowej grupie),
@@ -39,7 +39,7 @@ W trakcie zajęć do pracy niezbędne będzie posiadanie:
 - Proponowany temat API (co te API będzie robić) jest dowolny i będzie przedstawiony prowadzącemu na drugich zajęciach.
 - Prowadzący rezerwuje możliwość przeprowadzenia kolokwium w przypadku braku pracy na zajęciach przez grupę osób studenckich.
 
-## 4. Wymagania projektu.
+## 4. Wymagania projektu
 
 ### Zakres projektu zaliczeniowego: 
 
@@ -54,8 +54,8 @@ W trakcie zajęć do pracy niezbędne będzie posiadanie:
 
 3.	**Endpointy:**
 * Rejestracja użytkownika aplikacji (opcjonalnie)
-* CRUD
-* Minimum 2 endpointy, które wyjdą poza schemat CRUD, np. zestawienie miesięczne zamówień, lista wypożyczeń dla użytkownika, lista towarów zaczynających się od itp.
+* CRUD dla modeli (Create, Retrieve, Update oraz Delete)
+* Minimum 2 endpointy, które wyjdą poza schemat CRUD, np. zestawienie miesięczne zamówień, lista wypożyczeń dla użytkownika, lista towarów zaczynających się od ...., itp.
 
 
 **Projekt Django + HTML + CSS**

@@ -1,14 +1,14 @@
-# Projektowanie aplikacji webowych, semestr 2024Z
+# Projektowanie aplikacji webowych, semestr 2025Z
 
 
-## Lab 1 - narzędzie git
+## Lab 1.  System kontroli wersji Git
 ---
 
 Git to rozproszony system kontroli wersji, który umożliwia śledzenie zmian w plikach, tworzenie historii projektów i współpracę nad kodem. Jego działanie opiera się na repozytorium (repo), które przechowuje wszystkie wersje plików i śledzi każdą zmianę w sposób niezawodny i wydajny. Aby lepiej zrozumieć, jak działa Git, przeanalizujmy kluczowe elementy i koncepcje.
 
 *Dokumentacja?* [git-scm.com](https://git-scm.com/book/pl/v2).
 
-## Podstawowe informacje o systemie git.
+## Podstawowe informacje o narzędziu Git .
 
 ### 1. **Repozytorium (repozytorium Git)**
 
