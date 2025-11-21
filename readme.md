@@ -57,6 +57,7 @@ W trakcie zajęć do pracy niezbędne będzie posiadanie:
 * CRUD dla modeli (Create, Retrieve, Update oraz Delete)
 * Minimum 2 endpointy, które wyjdą poza schemat CRUD, np. zestawienie miesięczne zamówień, lista wypożyczeń dla użytkownika, lista towarów zaczynających się od ...., itp.
 
+**<font size=20>LUB</font>**
 
 **Projekt Django + HTML + CSS**
 
