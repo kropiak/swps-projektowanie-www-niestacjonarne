@@ -503,6 +503,6 @@ Dodaj filtr dla tematów (topic), kategorii oraz użytkowników dla klasy `Post`
 
 **Zadanie 8**  
 Przeczytaj informację o możliwości automatycznego generowania wartości pola w dokumentacji(https://docs.djangoproject.com/pl/5.2/ref/contrib/admin/#django.contrib.admin.ModelAdmin.prepopulated_fields) i zastosuj to dla pola `SlugField` modelu `Post`, które będzie generowane z pola `title`.
-`
+
 **Zadanie 9**  
 Jeżeli nie robiłeś/-aś tego wcześniej to zatwierdź wszystkie zmiany w danym branchu i spróbuj wykonać merge z główną gałęzią. Proponuję wykonać tę operację przy pomocy interfejsu IDE PyCharm, aby przetestować wbudowane narzędzie do wspomagania procesu merge (o ile wystąpią konflikty).
