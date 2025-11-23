@@ -423,7 +423,7 @@ Przydatne linki do dokumentacji, które mogą się przydać w trakcie rozwiązyw
 
 ### Zadania
 
-**Zadanie 0**
+**Zadanie 0**  
 Rozpocznij pracę na nowym branchu swojego repozytorium.
 
 **Zadanie 1**  
@@ -448,7 +448,7 @@ Plik `admin.py`.
 ```python
 # dla przykładowej klasy
 class PersonAdmin(admin.ModelAdmin):
-    # zmienna list_display przechowuje listę pól, które mają się wyświetlać w widoku listy danego modelu w panelu administracynym
+    # zmienna list_display przechowuje listę pól, które mają się wyświetlać w widoku listy danego modelu w panelu administracyjnym
     list_display = ['full_name', 'shirt_size']
 
     # poprzez definicję metody w klasie admin można dodać dodatkowe pola do wyświetlenia
