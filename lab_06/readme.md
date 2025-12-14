@@ -226,7 +226,7 @@ Teraz umieszczamy poniższą treść w pliku `templates\posts\category\list.html
 
 _**Listing 2**_
 ```html
-{% extends "posts\base.html" %}
+{% extends "posts/base.html" %}
 
 {% block title %}Lista obiektów Category{% endblock %}
 
@@ -310,7 +310,7 @@ _**Listing 5**_
 
 Zawartość pliku `template\category\detail.html`
 ```html
-{% extends "posts\base.html" %}
+{% extends "posts/base.html" %}
 
 {% block title %}{{ category.name }}{% endblock %}
 
