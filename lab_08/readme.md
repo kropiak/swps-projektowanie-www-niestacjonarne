@@ -174,7 +174,7 @@ Dobre praktyki jednak mówią o tym, że powinniśmy dla każdej operacji przygo
 
 **_Listing 2_**
 
-Modyfikacja w pliku `myapp/api_views.py`
+Modyfikacja w pliku `myapp/serializers.py`
 ```python
     def update(self, instance, validated_data):
         instance.name = validated_data.get('name', instance.name)
@@ -436,9 +436,9 @@ Django oferuje wiele wbudowanych walidatorów (Lista oraz przykłady wykorzystan
 **Zadania**
 
 1. Wykonaj zadania na nowym branchu o nazwie `lab_8`. Na koniec pracy, po przetestowaniu, scal ten branch z główną gałęzią projektu.
-2. Dodaj walidację na poziomie serializatora dla pól modelu `Post`:
-   * `nazwa` - może zawierać tylko litery,
-   * `data_dodania` - nie może być z przyszłości (możliwe, że konieczne będzie usunięcie właściwości pola "tylko do odczytu").
+2. Dodaj walidację na poziomie serializatora dla pól modelu `Topic`:
+   * `name` - może zawierać tylko litery,
+   * `created` - nie może być z przyszłości (możliwe, że konieczne będzie usunięcie właściwości pola "tylko do odczytu").
 3. Bazując na przykładach z bieżącego laboratorium przygotuj endpointy dla modeli `Category`, `Topic` i `Post`:
    * wyświetlanie, dodawanie i usuwanie pojedynczego obiektu typu dla każdej z powyższych encji,
    * wyświetlanie listy obiektów dla każdej z powyższych encji,
